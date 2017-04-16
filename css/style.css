@@ -187,6 +187,7 @@ header .inbody .navbar-brand span.subhead {
   background-color: #E4D29D;
   background-image: linear-gradient(to bottom,#ffcc66,#ffffff);
   border-top: 20px solid rgba(238, 200, 86, .5);
+	text-align: center;
 }
 
 /**  Page -- Services **/
@@ -280,16 +281,14 @@ and (max-width: 768px) {
 	padding:2.5%;
 }
 
-#customer{
-	padding-bottom:3%;
-	padding-top:2.5%;
+#customers{
+	font-size: 1.1em;
+	font-weight: 90;
 	text-align:left;
-	font-size: .7em;
-	font-weight: 100;
-	
-}
-	
-	
+	background-image: linear-gradient(to bottom, #d6c591,#E4D29D);
+    border: 10px solid #ffefbf;
+    padding: 25px;
+    margin: 4%;
 }
 
 
